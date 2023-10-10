@@ -42,12 +42,12 @@ public interface IItemStack {
     /**
      * @return Returns the item damage of this item. For tools this is the durability for other items the color and more.
      */
-    int getItemDamage();
+    int getMetadata();
 
     /**
      * @param value The value to be set as item damage. For tools this is the durability for other items the color and more.
      */
-    void setItemDamage(int value);
+    void setMetadata(int value);
 
     /**
      * @param key The key of this NBTTag
